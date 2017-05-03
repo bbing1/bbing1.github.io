@@ -1,7 +1,18 @@
-#sideimage {
-position:absolute;
-bottom:0;
-right:0;
-float: left;
-margin-right: 5px;
+#header
+{
+    width:500px;
+    height:300px;
+    position:relative;
+    border:1px solid red;
+}
+#nav_tabs
+{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.tab
+{
+    float:left;
+    margin-right:5px;
 }
