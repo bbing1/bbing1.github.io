@@ -21,18 +21,18 @@
 
 .main {
   text-align: center;
-  background: white;
+  background: blue;
 }
 
 .aside-2 {
   background: black;
 }
 
-@media all and (min-width: 630px) {
+@media all and (min-width: 1000px) {
   .aside { flex: 1 auto; }
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 600px) {
   .main    { flex: 2 0px; }
   .main    { order: 1; }
   .aside-2 { order: 2; }
