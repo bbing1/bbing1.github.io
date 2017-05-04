@@ -1,18 +1,1 @@
-#header
-{
-    width:500px;
-    height:300px;
-    position:relative;
-    border:1px red;
-}
-#nav_tabs
-{
-    position:absolute;
-    bottom: 100;
-    right: 100;
-}
-.tab
-{
-    float:left;
-    margin-right:5px;
-}
+
