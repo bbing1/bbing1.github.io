@@ -43,14 +43,3 @@ img {
     width: 100%;
     max-width: 1000px;
 max-height:200%
-}
-
-img {
-	margin: auto;
-    width: 100%;
-    max-width: 800px;
-max-height:200%
-  .main    { flex: 10 0px; }
-  .main    { order: 1; }
-  .aside-2 { order: 2; }
-}
