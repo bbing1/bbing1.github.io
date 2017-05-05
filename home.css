@@ -25,21 +25,34 @@
 }
 
 .aside-2 {
-  background: black;
+    -webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex: 1 auto;
+	flex: 1 auto;
+	padding: 1px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+    box-sizing: border-box;
+}
+img {
+	margin: auto;
+    width: 40%;
+    max-width: 40%;
+    max-height: 100%
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 100px) {
   .aside { flex: auto; }
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 100px) {
   .main    { flex: 10 0px; }
   .main    { order: 1; }
   .aside-2 { order: 2; }
 }
 
-img {
-	margin: auto;
-    width: 100%;
-    max-width: 1000px;
-    max-height:200%
+body {
+  padding: 2em; 
+}
