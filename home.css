@@ -28,12 +28,12 @@
   background: black;
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 500px) {
   .aside { flex: auto; }
 }
 
-@media all and (min-width: 1000px) {
-  .main    { flex: 1 0px; }
+@media all and (min-width: 500px) {
+  .main    { flex: 100 0px; }
   .main    { order: 1; }
   .aside-2 { order: 2; }
 }
