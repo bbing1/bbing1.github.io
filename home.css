@@ -37,7 +37,3 @@
   .main    { order: 1; }
   .aside-2 { order: 2; }
 }
-
-body {
-  padding: 2em; 
-}
