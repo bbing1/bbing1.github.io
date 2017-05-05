@@ -21,11 +21,11 @@
 
 .main {
   text-align: center;
-  background: blue;
+  background: white;
 }
 
 .aside-2 {
-  background: black;
+  background: white;
 }
 
 @media all and (min-width: 500px) {
