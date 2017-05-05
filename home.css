@@ -16,7 +16,7 @@
 
 .wrapper > * {
   padding: 10px;
-  flex: 1 100%;
+  flex: 100%;
 }
 
 .main {
@@ -29,11 +29,11 @@
 }
 
 @media all and (min-width: 1000px) {
-  .aside { flex: 1 auto; }
+  .aside { flex: auto; }
 }
 
 @media all and (min-width: 1000px) {
-  .main    { flex: 2 0px; }
+  .main    { flex: 1 0px; }
   .main    { order: 1; }
   .aside-2 { order: 2; }
 }
