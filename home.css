@@ -37,3 +37,9 @@
   .main    { order: 1; }
   .aside-2 { order: 2; }
 }
+
+img {
+	margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    max-height:200%
