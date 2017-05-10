@@ -1,4 +1,8 @@
- /* Style the tab */
+.img-circle {
+ border-radius: 50%;
+}
+
+/* Style the tab */
 div.tab {
     overflow: hidden;
     border: 1px solid #ccc;
