@@ -1,20 +1,19 @@
- function openCity(evt, cityName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
+var Tabs = {};
 
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
+Tabs.tabbedContainer = function(selector, containers, nav) {
+  $(selector+' #tab1').addClass('tabbed-container-active');
+  $(nav+' li:first-child a').addClass('nav-active');
+	$(nav+' li a').click(function(e) {
+		e.preventDefault();
+		$(nav+' li a').removeClass('nav-active');
+		$(this).addClass('nav-active');
+		$(containers).removeClass('tabbed-container-active');		
+		var $href = $(this).attr('href');
+		$($href).addClass('tabbed-container-active');
 
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
+	});
+};
 
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
+jQuery(document).ready(function($) {
+	Tabs.tabbedContainer('.tabs', '.tabbed-container', '.tabbed-nav');
+});
