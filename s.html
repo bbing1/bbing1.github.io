@@ -10,34 +10,37 @@
 </head>
 
 <header>
-  <script type="text/javascript">
-    function GetClock() {
-      var d = new Date();
-      var nmonth = d.getMonth(), ndate = d.getDate(), nyear = d.getYear();
-      if (nyear < 1000) nyear += 1900;
-      var nhour = d.getHours(), nmin = d.getMinutes();
-      if (nmin <= 9) nmin = "0" + nmin;
-    
-      document.getElementById("clockbox").innerHTML =
-        "" +
-        ndate +
-        "x" +
-        (nmonth + 1) +
-        "x" +
-        nyear +
-        " " +
-        nhour +
-        ":" +
-        nmin +
-        "";
-    }
-    
-    window.onload = function() {
-      GetClock();
-      setInterval(GetClock, 1000);
-    };
-  </script>
-  <div id="clockbox" style="font:10pt Arial; color:#E7E7E7; text-align: right; width: 100px;"></div>
+  <div id="wrapper" div align="right">
+    <script type="text/javascript">
+      function GetClock() {
+        var d = new Date();
+        var nmonth = d.getMonth(), ndate = d.getDate(), nyear = d.getYear();
+        if (nyear < 1000) nyear += 1900;
+        var nhour = d.getHours(), nmin = d.getMinutes();
+        if (nmin <= 9) nmin = "0" + nmin;
+      
+        document.getElementById("clockbox").innerHTML =
+          "" +
+          ndate +
+          "x" +
+          (nmonth + 1) +
+          "x" +
+          nyear +
+          " " +
+          nhour +
+          ":" +
+          nmin +
+          "";
+      }
+      
+      window.onload = function() {
+        GetClock();
+        setInterval(GetClock, 1000);
+      };
+    </script>
+    <div id="clockbox" style="font:10pt Arial; color:#E7E7E7; text-align: right; width: 100px; background-color: #7E7E7E; padding: 2px;">
+    </div>
+  </div>
 
 </header>
 <div class="layout__body">
