@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__body {
+  display: flex;
+  flex: 1;
+}
+
+.layout__content {
+  flex: 1 80vw;
+}
+.layout__columns {
+  flex: 1 1 20vw;
+}
+.layout__nav {
+  order: -1;
+}
+
+
+
+
+
+
+
+.layout__content {
+  background: transparent;
+}
+.layout__columns {
+  background: transparent;
+}
+header, footer {
+  background: #7E7E7E;
+  color: #7E7E7E;
+  padding: 0px;
+}
+footer a {
+  flex: 1;
+}
+h1 {
+  margin: 0;
+  font-size: 15px;
+}
+html,body {
+  height: 100%;
+  margin: 0%;
+  font-family: Helvetica;
+}
