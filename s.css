@@ -14,7 +14,8 @@ body {
 
 .layout__columns {
   margin-top: 20px;
-  flex: 1 1 20vw;
+  padding-right: 4px;
+  flex: 1 1 25vw;
 }
 
 .layout__nav {
@@ -48,6 +49,331 @@ h1 {
 }
 
 html,
+body {
+  height: 100%;
+  margin: 0%;
+  font-family: Helvetica;
+}
+  margin: 0%;
+  font-family: Helvetica;
+}
+
+/*MAL*/
+
+/*To do: Bring the series closer to each other */
+
+.mb12 {
+  margin-bottom: 10px!important
+}
+
+.floatRightHeader {
+  float: right;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.ff-Verdana {
+  font-family: Verdana, Arial
+ }
+
+.statistics-updates {
+  background-color: white;
+  display: block;
+  width: auto;
+  height: 60px;
+  margin: 2px;
+  padding: 1px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px
+
+}
+
+
+.statistics-updates {
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+.statistics-updates {
+  color: #2db039
+}
+
+.statistics-updates {
+  color: #26448f
+}
+
+.statistics-updates {
+  color: #f9d457
+}
+
+.statistics-updates {
+  color: #a12f31
+}
+
+.statistics-updates {
+  color: #c3c3c3
+}
+
+.di-b {
+  display: block!important
+}
+
+.w100 {
+  width: 100%
+}
+
+.mb8 {
+  margin-bottom: 8px!important
+}
+
+.graph-content {
+  height: 22px
+}
+
+.pt8 {
+  padding-top: 8px !important
+}
+
+.fl-r {
+  float: right!important
+}
+
+.fn-grey2 {
+  color: #787878!important
+}
+
+.fl-l {
+  float: left!important
+}
+
+.graph-inner {
+  display: inline-block;
+  margin-bottom: 6px;
+  width: 0;
+  height: 10px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px
+}
+
+.graph-inner.on_hold {
+  background-color: #f9d457
+}
+
+.di-ib {
+  display: inline-block!important
+}
+
+.mr8 {
+  margin-right: 8px!important
+}
+
+.graph-inner.watching {
+  background-color: #2db039
+}
+
+.text {
+  font-weight: 700
+}
+
+.text.watching {
+  color: #2db039
+}
+
+.graph-inner.completed {
+  background-color: #26448f
+}
+
+.text.completed {
+  color: #26448f
+}
+
+.user-statistics-stats {
+  display: table;
+  width: auto
+}
+
+.stats {
+  display: table-cell;
+  width: 50%;
+  padding-right: 8
+}
+
+.updates {
+  display: table-cell;
+  width: 50%;
+  padding-left: 0;
+}
+
+.stats-graph {
+  background-color: #f6f6f6;
+  display: block;
+  width: 380px;
+  height: 18px;
+  margin: 0 auto;
+  overflow: hidden;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px
+}
+
+.graph {
+  display: inline-block;
+  width: 0;
+  height: 18px
+}
+
+.graph.watching {
+  background-color: #2db039
+}
+
+.graph.completed {
+  background-color: #26448f
+}
+
+.graph.on_hold {
+  background-color: #f9d457
+}
+
+.graph.dropped {
+  background-color: #a12f31
+}
+
+.graph.plan_to_watch {
+  background-color: #c3c3c3
+}
+
+.stats-status {
+  width: 160px;
+  margin-before: 0;
+  -moz-margin-before: 0;
+  -webkit-margin-before: 0;
+  -ms-margin-before: 0;
+  -o-margin-before: 0;
+  margin-after: 0;
+  -moz-margin-after: 0;
+  -webkit-margin-after: 0;
+  -ms-margin-after: 0;
+  -o-margin-after: 0;
+  margin-start: 0;
+  -moz-margin-start: 0;
+  -webkit-margin-start: 0;
+  -ms-margin-start: 0;
+  -o-margin-start: 0;
+  margin-end: 0;
+  -moz-margin-end: 0;
+  -webkit-margin-end: 0;
+  -ms-margin-end: 0;
+  -o-margin-end: 0;
+  padding-start: 0;
+  -moz-padding-start: 0;
+  -webkit-padding-start: 0;
+  -ms-padding-start: 0;
+  -o-padding-start: 0;
+  margin: 0;
+  padding: 0
+}
+
+.circle {
+  position: relative;
+  text-indent: 24px
+}
+
+.circle::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  content: ''
+}
+
+.circle.watching::after {
+  background-color: #2db039
+}
+
+.circle.completed::after {
+  background-color: #26448f
+}
+
+.circle.on_hold::after {
+  background-color: #f9d457
+}
+
+.circle.dropped::after {
+  background-color: #a12f31
+}
+
+.circle.plan_to_watch::after {
+  background-color: #c3c3c3
+}
+
+.image {
+  width: 40px;
+  height: 60px;
+  border: 1px solid #F0F0F0;
+  transition-property: all;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  opacity: 1;
+  overflow: hidden
+}
+
+.image {
+  -ms-interpolation-mode: bicubic;
+  image-rendering: auto;
+  image-rendering: optimizeQuality
+}
+
+.image:hover {
+  opacity: .8
+}
+
+.data {
+  margin-left: 48px
+}
+
+.graph-content {
+  height: 22px
+}
+
+.graph {
+  background-color: #f6f6f6;
+  display: block;
+  width: 190px;
+  height: 10px;
+  padding: 1px;
+  border: 1px solid #F0F0F0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px
+}
+
+.graph-inner.dropped {
+  background-color: #a12f31
+}
+
+.graph-inner.plan_to_watch {
+  background-color: #c3c3c3
+}
+
+.text.on_hold {
+  color: #f9d457
+}
+
+.text.dropped {
+  color: #a12f31
+}
+
+.text.plan_to_watch {
+  color: #c3c3c3
+}
 body {
   height: 100%;
   margin: 0%;
