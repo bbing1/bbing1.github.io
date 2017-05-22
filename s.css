@@ -9,13 +9,13 @@ body {
 }
 
 .layout__content {
-  flex: 1 80vw;
+  flex: 1 70vw;
 }
 
 .layout__columns {
   margin-top: 20px;
   padding-right: 4px;
-  flex: 1 1 25vw;
+  flex: 1 1 27vw;
 }
 
 .layout__nav {
