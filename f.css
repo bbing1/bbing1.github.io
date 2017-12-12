@@ -1,25 +1,94 @@
 img.resize {
-   width: auto;
-   max-height: 282;
+  width: auto;
+  max-height: 282px;
 }
 
 .img-circle {
- border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* Style the tab */
 div.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
+
 
 /* Style the buttons inside the tab */
 div.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    padding: 14px 16px;
-    transition: 0.3s;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
 }
+
+.tabcontent {
+  text: center;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__body {
+  display: flex;
+  flex: 1;
+}
+
+.layout__content {
+  flex: 1 70vw;
+}
+
+.layout__columns {
+  margin-top: 20px;
+  padding-right: 4px;
+  flex: 1 1 27vw;
+}
+
+.layout__nav {
+  order: -1;
+}
+
+.layout__content {
+  margin-top: 20px;
+  background: transparent;
+}
+
+.layout__columns {
+  background: transparent;
+}
+
+header,
+footer {
+  margin-top: 4px;
+  background: transparent;
+  color: transparent;
+  padding: 0px;
+}
+
+footer a {
+  flex: 1;
+}
+
+h1 {
+  margin: 0;
+  font-size: 15px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0%;
+  font-family: Helvetica;
+}
+  margin: 0%;
+  font-family: Helvetica;
+}
+
